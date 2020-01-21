@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blink&#39;s Blog</title>
+    <link>http://blog.iblink.cn/post/</link>
+    <description>Recent content in Posts on Blink&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 21 Jan 2020 19:49:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.iblink.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows系统下用Hugo&#43;GitHub搭建个人博客</title>
+      <link>http://blog.iblink.cn/post/creat-a-blog-with-hugo/</link>
+      <pubDate>Tue, 21 Jan 2020 19:49:51 +0800</pubDate>
+      
+      <guid>http://blog.iblink.cn/post/creat-a-blog-with-hugo/</guid>
+      <description>安装Hugo 前往下载地址 下载 hugo_X.XX_Windows-64bit.zip 将其解压,得到 hogo.exe 将 hugo.exe 所在目录添加至系统环境变量 执行命令 hugo version 出现类似提示即安装成功 Hugo Static Site Generator v0.62.2-83E50184 windows/amd64 BuildDate: 2020-01-05T18:53:21Z 创建一个新站点</description>
+    </item>
+    
+    <item>
+      <title>我的博客开通了</title>
+      <link>http://blog.iblink.cn/post/myfirstblog/</link>
+      <pubDate>Tue, 21 Jan 2020 14:29:39 +0800</pubDate>
+      
+      <guid>http://blog.iblink.cn/post/myfirstblog/</guid>
+      <description>★ 大家好,我的博客开通了,希望能写出好文章给大家看.</description>
+    </item>
+    
+  </channel>
+</rss>

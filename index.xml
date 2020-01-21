@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blink&#39;s Blog</title>
+    <link>http://blog.iblink.cn/</link>
+    <description>Recent content on Blink&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 21 Jan 2020 19:49:51 +0800</lastBuildDate>
+    
+        <atom:link href="http://blog.iblink.cn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于</title>
+      <link>http://blog.iblink.cn/about/</link>
+      <pubDate>Tue, 21 Jan 2020 11:38:00 +0800</pubDate>
+      
+      <guid>http://blog.iblink.cn/about/</guid>
+      
+        <description>&lt;p&gt;To be continued&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Windows系统下用Hugo&#43;GitHub搭建个人博客</title>
+      <link>http://blog.iblink.cn/post/creat-a-blog-with-hugo/</link>
+      <pubDate>Tue, 21 Jan 2020 19:49:51 +0800</pubDate>
+      
+      <guid>http://blog.iblink.cn/post/creat-a-blog-with-hugo/</guid>
+      
+        <description>&lt;h1 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h1&gt;
+&lt;p&gt;前往&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;下载地址&lt;/a&gt;&lt;br&gt;
+下载 hugo_X.XX_Windows-64bit.zip&lt;br&gt;
+将其解压,得到 hogo.exe&lt;br&gt;
+将 hugo.exe 所在目录添加至系统环境变量&lt;/p&gt;
+&lt;p&gt;执行命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;出现类似提示即安装成功&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hugo Static Site Generator v0.62.2-83E50184 windows/amd64 BuildDate: 2020-01-05T18:53:21Z
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;创建一个新站点&#34;&gt;创建一个新站点&lt;/h1&gt;
+&lt;p&gt;使用如下命令新建一个名为“quickstart”的网站：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site quickstart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;添加一个主题&#34;&gt;添加一个主题&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;编辑 config.toml 配置文件使用该主题&lt;br&gt;
+&lt;code&gt;echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;写一篇博客&#34;&gt;写一篇博客&lt;/h1&gt;
+&lt;p&gt;执行命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new post/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;该命令会在&lt;code&gt;quickstart/content/post&lt;/code&gt;
+目录下新建一个&lt;code&gt;my-first-post.md&lt;/code&gt;文件&lt;br&gt;
+编辑新建的markdown文件即可,注意将draft参数改为false&lt;/p&gt;
+&lt;h1 id=&#34;开启hugo服务器&#34;&gt;开启Hugo服务器&lt;/h1&gt;
+&lt;p&gt;执行命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;浏览器打开&lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;即可预览&lt;/p&gt;
+&lt;h1 id=&#34;部署到github-pages&#34;&gt;部署到GitHub Pages&lt;/h1&gt;
+&lt;p&gt;首先在GitHub上创建一个Repository，命名为：&lt;code&gt;yourname.github.io&lt;/code&gt;&lt;br&gt;
+(yourname替换为自己的github用户名）&lt;/p&gt;
+&lt;p&gt;然后修改&lt;code&gt;config.toml&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;baseURL = &amp;quot;https://yourname.github.io/&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;执行命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可看到根目录下出现&lt;code&gt;/public&lt;/code&gt;文件夹,该文件夹的内容即Hugo生成的整个静态网站.&lt;/p&gt;
+&lt;p&gt;将&lt;code&gt;/public&lt;/code&gt;的内容push到远程仓库.(注意替换yourname为自己的GitHub用户名)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;cd public
+git init
+git add .
+git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;commit message&amp;#34;&lt;/span&gt;
+git remote add origin https://github.com/yourname/yourname.github.io.git
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成后等待几分钟即可通过&lt;code&gt;https://yourname.github.io/ &lt;/code&gt;访问博客&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>我的博客开通了</title>
+      <link>http://blog.iblink.cn/post/myfirstblog/</link>
+      <pubDate>Tue, 21 Jan 2020 14:29:39 +0800</pubDate>
+      
+      <guid>http://blog.iblink.cn/post/myfirstblog/</guid>
+      
+        <description>&lt;h1 id=&#34;heading&#34;&gt;★&lt;/h1&gt;
+&lt;p&gt;大家好,我的博客开通了,希望能写出好文章给大家看.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
