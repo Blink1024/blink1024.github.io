@@ -2,8 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://blink1024.github.io/</loc><lastmod>2022-06-26T18:07:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blink1024.github.io/my-first-post/</loc><lastmod>2022-06-26T18:07:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blink1024.github.io/posts/</loc><lastmod>2022-06-26T18:07:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blink1024.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blink1024.github.io/categories/</loc><lastmod>2021-12-20T10:01:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blink1024.github.io/my-first-post/</loc><lastmod>2021-12-20T10:01:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blink1024.github.io/posts/</loc><lastmod>2021-12-20T10:01:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blink1024.github.io/categories/%E6%9A%82%E4%B8%8D%E5%88%86%E7%B1%BB/</loc><lastmod>2021-12-20T10:01:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blink1024.github.io/</loc><lastmod>2021-12-20T10:01:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blink1024.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

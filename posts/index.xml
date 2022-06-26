@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - Blink</title>
+        <title>所有文章 - 转瞬之间</title>
         <link>https://blink1024.github.io/posts/</link>
-        <description>所有文章 | Blink</description>
+        <description>所有文章 | 转瞬之间</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>meowlove (Blink)</managingEditor>
-            <webMaster>meowlove (Blink)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 26 Jun 2022 18:07:59 &#43;0800</lastBuildDate><atom:link href="https://blink1024.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>meowlove (Blink)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 20 Dec 2021 10:01:36 &#43;0800</lastBuildDate><atom:link href="https://blink1024.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>My First Post</title>
     <link>https://blink1024.github.io/my-first-post/</link>
-    <pubDate>Sun, 26 Jun 2022 18:07:59 &#43;0800</pubDate>
+    <pubDate>Mon, 20 Dec 2021 10:01:36 &#43;0800</pubDate>
     <author>Blink</author>
     <guid>https://blink1024.github.io/my-first-post/</guid>
-    <description><![CDATA[hah]]></description>
+    <description><![CDATA[test]]></description>
 </item>
 </channel>
 </rss>
